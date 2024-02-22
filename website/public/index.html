@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🎥 what2watch 🎬</title>
+
+    <!-- Custom CSS styles. -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/palms.css" />
+    <link rel="stylesheet" href="css/background.css" />
+    <link rel="stylesheet" href="css/slots.css" />
+    <link rel="stylesheet" href="css/dialog.css" />
+    <link rel="stylesheet" href="css/pulley.css">
+
+    <!-- Bootstrap -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+
+    <!-- JS Libraries -->
+    <!-- jQuery -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- CircleType -->
+    <script src="js/circletype.min.js"></script>
+    <!-- Bootstrap -->
+
+    <!-- Custom JS -->
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <!-- The title kinda looks like Watchmen. -->
+      <h1>what 2 watch</h1>
+    </header>
+    <main>
+      <div id="content">
+        <!-- Spotlights -->
+        <div id="spotlight-left">
+
+        </div>
+
+        <!-- Dialog for slot machine thing. -->
+        <dialog id="dialog">
+          <div id="dialog-content">
+            <h1>Movie Details</h1>
+            <div id="dialog-movie-details">
+              <p id="dialog-movie-title">Title: <span>Examples</span></p>
+              <p id="dialog-movie-genres">Genres: <span>Examples</span></p>
+              <p id="dialog-movie-rating">Rating: <span>Examples</span></p>
+              <p id="dialog-movie-runtime">Runtime: <span>Examples</span> minutes.</p>
+              <p id="dialog-movie-release-year">Release Year: <span>Examples</span></p>
+              <p id="dialog-movie-type">Type: <span>Examples</span></p>
+            </div>
+          </div>
+          <form method="dialog">
+            <button id="close-dialog">X</button>
+          </form>
+        </dialog>
+
+        <!-- Palm Tree Left -->
+        <div class="palm-tree" id="palm-left">
+          <img
+            class="palm-tree-img"
+            src="img/Palm-tree-on-transparent-background-PNG.png"
+            alt=""
+          />
+        </div>
+
+        <!-- Background: Hollywood stars and hills. -->
+        <canvas id="hollywood-hills" width="600" height="600">
+          <!-- TODO: Add search lights. -->
+        </canvas>
+
+        <!-- The pully thing on the side of a slot machine. -->
+        <div id="slot-pulley">
+          <div id="slot-pulley-handle"></div>
+        </div>
+
+        <!-- Slots -->
+        <div id="slots">
+          <!-- Top of the slot machine -->
+          <div id="slot-top">
+            <!-- Beyonce, b*tch. -->
+            <!-- https://www.youtube.com/watch?v=Qe8EPns4Mow -->
+            <div id="slot-top-text">WELCOME TO</div>
+            <div id="slot-top-text-hollywood">HOLLYWOOD</div>
+          </div>
+
+          <!-- Inputs for limiting what types of movies to watch. -->
+          <div id="slot-info">
+            <h3
+              style="
+                color: rgb(255, 217, 0);
+                text-align: center;
+                margin: 10px 10px;
+              "
+            >
+              Search Parameters
+            </h3>
+            <div id="inputs">
+              <label for="search-adult" style="color: white"> Adult?: </label>
+              <input type="checkbox" id="search-adult" />
+              <label for="search-start-year" style="color: white"
+                >Start Year:
+              </label>
+              <input
+                id="search-start-year"
+                type="number"
+                min="1900"
+                max="2099"
+                step="1"
+                value=""
+                style="width: 75px"
+              />
+              <label for="search-genre" style="color: white">Genre: </label>
+              <select id="search-genre" style="height: 25px"></select>
+              <br />
+              <label for="search-type" style="color: white">Type: </label>
+              <select id="search-type" style="height: 25px"></select>
+              <label for="search-runtime" style="color: white"
+                >Runtime &lt (minutes):
+              </label>
+              <input
+                id="search-runtime"
+                type="number"
+                min="0"
+                max=""
+                step="1"
+                value=""
+                style="width: 50px"
+              />
+              <label for="search-rating" style="color: white">Rating >: </label>
+              <input
+                id="search-rating"
+                type="number"
+                min="0"
+                max="10"
+                step="0.1"
+                value=""
+                style="width: 50px"
+              />
+              <br />
+              <label for="search-featuring" style="color: white"
+                >Featuring:
+              </label>
+              <input
+                type="text"
+                name="search-featuring"
+                id="search-featuring"
+              />
+            </div>
+          </div>
+
+          <!-- The actual slots. -->
+          <div id="slot-board">
+            <div class="slot-side">
+              <p>JACKPOT</p>
+              <p>JACKPOT</p>
+              <p>JACKPOT</p>
+              <p>JACKPOT</p>
+              <p>JACKPOT</p>
+              <p>JACKPOT</p>
+              <p>JACKPOT</p>
+              <p>JACKPOT</p>
+              <p>JACKPOT</p>
+              <p>JACKPOT</p>
+            </div>
+
+            <div id="slot-middle">
+              <div class="slot-col">
+                <div class="slot">
+                  <!-- <img src="img/movie-posters/cowboys-and-aliens.jpg" alt=""> -->
+                </div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+              </div>
+              <div class="slot-col">
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+              </div>
+              <div class="slot-col">
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+              </div>
+            </div>
+
+            <div class="slot-side">
+              <p>JACKPOT</p>
+              <p>JACKPOT</p>
+              <p>JACKPOT</p>
+              <p>JACKPOT</p>
+              <p>JACKPOT</p>
+              <p>JACKPOT</p>
+              <p>JACKPOT</p>
+              <p>JACKPOT</p>
+              <p>JACKPOT</p>
+              <p>JACKPOT</p>
+            </div>
+          </div>
+
+          <!-- The bottom of the board. -->
+          <div id="slot-bottom">
+            <!-- TODO: Add some cool design down here. -->
+            <img
+              id="bottom-img-1"
+              src="img/151-1515092_magical-wizard-hat-0-sorcerer-mickey-hat-clipart.png"
+              width="80px"
+              alt=""
+            />
+            <img
+              id="bottom-img-2"
+              src="img/kisspng-clapperboard-film-clip-art-movie-clapper-cliparts-5aa988f0d6bde4.9338394215210600808796.png"
+              alt=""
+            />
+            <img
+              id="bottom-img-3"
+              src="img/kisspng-clip-art-actor-theatre-acting-image-hibbs-jessica-advanced-drama-theatre-5b906e440cd6e6.5288226615361920680526.png"
+              alt=""
+            />
+            <img
+              id="bottom-img-4"
+              src="img/kisspng-vector-graphics-photographic-film-computer-icons-r-images-of-film-reel-clipart-rock-cafe-5cfe23d37f3e72.0751491415601591875212.png"
+              alt=""
+            />
+            <img
+              id="bottom-img-5"
+              src="img/vecteezy_gold-star-png-shotting-gold-star-png-transparent-gold_21664801.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <!-- Palm Tree Right -->
+        <div class="palm-tree" id="palm-right">
+          <img
+            class="palm-tree-img"
+            src="img/Palm-tree-on-transparent-background-PNG.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

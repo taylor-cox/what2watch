@@ -1,0 +1,14 @@
+{
+  "name": "what2watch",
+  "version": "0.1.0",
+  "description": "A random movie picker for movie night!",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

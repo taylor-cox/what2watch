@@ -1,0 +1,23 @@
+#dialog {
+  /* display: flex; */
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  width: 90%;
+  height: 90%;
+  z-index: 50;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border: 3px solid rgba(255, 217, 0);
+  opacity: 0.97;
+  color: rgba(255, 217, 0);
+}
+
+#close-dialog {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+}

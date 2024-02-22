@@ -1,0 +1,30 @@
+/* Slot Pulley Thing */
+#slot-pulley {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: 20%;
+  height: 1em;
+  background-color: grey;
+  border: 6px solid rgb(45, 45, 45);
+  border-left: none;
+  border-right: none;
+  transform: rotate(-30deg);
+  transform-origin: 0% 0%;
+  transition: transform 0.5s;
+  z-index: 1;
+}
+
+#slot-pulley:hover {
+  transform: rotate(-25deg);
+}
+
+#slot-pulley-handle {
+  position: relative;
+  left: 95%;
+  top: -100%;
+  background-color: rgb(121, 0, 0);
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+}

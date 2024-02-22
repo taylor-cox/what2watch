@@ -1,0 +1,18 @@
+version: 2.24.5
+
+include:
+  - ./api/docker-compose.yml
+  - ./website/docker-compose.yml
+
+services:
+  database:
+    extends:
+      file: ./database/docker-compose.yml
+      service: database
+    networks:
+      - server-side
+
+networks:
+  client-side:
+    driver: bridge
+  server-side: {}
