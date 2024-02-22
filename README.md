@@ -19,6 +19,8 @@ The website is disgusting, the database is unwieldy, and I have no informed opin
 
 <img src="./readme-images/poc2.png" width="150px">
 
+The main sticking point was the website and getting things to look and act correctly.
+
 ## Getting Started
 You need Docker and Docker Compose installed. Run:
 ```
