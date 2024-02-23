@@ -40,5 +40,5 @@ The website sucks and probably won't work on all devices.
 I'm pretty sure there's an SQI somewhere. Go for it.
 
 <!-- Oh golly gee, a cors issue! Whatever shall I do! -->
-
 <!-- Worst game ever. -->
+<!-- And you want me to say gg. Hilarious. -->
