@@ -41,12 +41,4 @@ I'm pretty sure there's an SQI somewhere. Go for it.
 
 <!-- Oh golly gee, a cors issue! Whatever shall I do! -->
 
-<!-- https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic2.cbrimages.com%2Fwordpress%2Fwp-content%2Fuploads%2F2019%2F03%2FSpider-Man-Pointing-Meme.jpg&f=1&nofb=1&ipt=b61699bb3f00c8f52cae1ebe2b3d009d4b1c6a70797390653d6b04750b43a6de&ipo=images -->
-
-<!-- Wait a second. Are you meaning to tell me a *senior engineer* has more experience than a *junior*? -->
-
-<!-- And you thought I didn't KNOW? 😂 -->
-
-<!-- https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Am84U05Bm0JZJhifOfoNAQHaEz%26pid%3DApi%26h%3D160&f=1&ipt=d131a757d7f6bbc29e48549e718d45038fc4b64dfcf28ef8b8c4a4a33ef2fe66&ipo=images -->
-
-<!-- Good luck with your contract or whatever. -->
+<!-- Worst game ever. -->
