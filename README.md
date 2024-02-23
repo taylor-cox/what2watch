@@ -45,6 +45,8 @@ I'm pretty sure there's an SQI somewhere. Go for it.
 
 <!-- Wait a second. Are you meaning to tell me a *senior engineer* has more experience than a *junior*? -->
 
+<!-- And you thought I didn't KNOW? 😂 -->
+
 <!-- https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Am84U05Bm0JZJhifOfoNAQHaEz%26pid%3DApi%26h%3D160&f=1&ipt=d131a757d7f6bbc29e48549e718d45038fc4b64dfcf28ef8b8c4a4a33ef2fe66&ipo=images -->
 
 <!-- Good luck with your contract or whatever. -->
