@@ -40,3 +40,5 @@ The website sucks and probably won't work on all devices.
 I'm pretty sure there's an SQI somewhere. Go for it.
 
 <!-- Oh golly gee, a cors issue! Whatever shall I do! -->
+
+<!-- https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic2.cbrimages.com%2Fwordpress%2Fwp-content%2Fuploads%2F2019%2F03%2FSpider-Man-Pointing-Meme.jpg&f=1&nofb=1&ipt=b61699bb3f00c8f52cae1ebe2b3d009d4b1c6a70797390653d6b04750b43a6de&ipo=images -->
