@@ -38,3 +38,5 @@ All the data comes from the [IMDB Database Datasets](https://datasets.imdbws.com
 The website sucks and probably won't work on all devices.
 
 I'm pretty sure there's an SQI somewhere. Go for it.
+
+<!-- Oh golly gee, a cors issue! Whatever shall I do! -->
