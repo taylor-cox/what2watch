@@ -42,5 +42,9 @@ I'm pretty sure there's an SQI somewhere. Go for it.
 <!-- Oh golly gee, a cors issue! Whatever shall I do! -->
 <!-- Worst game ever. -->
 <!-- And you want me to say gg. Hilarious. -->
+
 <!-- I've got a new catch phrase for you. -->
 <!-- Welcome to the "Game acts Stupid", where the project is made up and the code doesn't matter. -->
+
+<!-- "When?" Day 1. -->
+<!-- "How?" Familiar faces. -->
